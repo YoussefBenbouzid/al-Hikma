@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["aggiungi_libro"])) {
                         <input class="form-control" type="text" name="isbn" required>
                     </div>
                     <div class="form-group">
-                        <label for="isbn">Descrizione:</label>
+                        <label for="descrizione">Descrizione:</label>
                         <input class="form-control" type="text" name="descrizione" required>
                     </div>
                     <div class="form-group">
