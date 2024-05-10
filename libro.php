@@ -8,7 +8,7 @@ $result = $connessione->query($sql);
 $libro = $result->fetch_assoc();
 ?>
 
-    <br/>
+    <br>
 
     <div class="container" align="left" style="margin: 30;">
         <div class="row">
